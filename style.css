@@ -3,6 +3,9 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* MENU/HEADER */
+
 .menu-section {
     background-color: #191919;
     height: 100px;
@@ -38,6 +41,8 @@
     line-height: 0.04px;
 }
 
+/* JUMBOTRON */
+
 .jumbotron-image {
     min-height: 460px;
     background-image: url('img/21766697_1681557628529975_865432837120863916_n.jpg');
@@ -46,6 +51,7 @@
     background-repeat: no-repeat;
 }
 
+/* ABOUT */
 .about-section {
     background-color: #f0edee;
     height: 540px;
@@ -86,25 +92,28 @@
 /* SHOP */
 
 .shop {
-/*    height: 400px;*/
+    padding: 40px 10px;
 }
+
+.cards-section {
+    display: flex;
+    justify-content: space-between;
+}
+
 .shop h2 {
     font-size: 40px;
     color: #191919;
     font-weight: 700;
-    padding: 30px 0 20px 0;
+    padding: 10px 0 20px 0;
     text-align: center;
 }
 
 .shop .card {
-    width: 20%;
-/*    height: 100%;*/
+    width: 19%;
     float: left;
-    padding-left: 10px;
 }
 
-.shop .card:last-child {
-    padding: initial;
+.shop .card:first-child {
 }
 
 .shop img {
@@ -116,7 +125,93 @@
     min-height: 260px;
 }
 
+.shop .card-body p {
+    font-size: .95rem;
+}
+
 .shop .btn {
     position: absolute;
     bottom: 5%;
+}
+
+/* EVENTS */
+
+.events {
+    background-color: #191919;
+    height: 350px;
+    text-align: center;
+    padding: 30px;
+}
+
+.events > h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #f0edee;
+    margin-bottom: 40px;
+}
+
+.events p {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.events span {
+    font-weight: 700;
+}
+.events a {
+    color: #f0edee;
+}
+
+.events a:hover {
+    text-decoration: none;
+}
+
+/* CONTACT */
+
+.contact {
+    height: 400px;
+    background-color: #f0edee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact h3 {
+    color: #191919;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contact .icons {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact .find-icon {
+    color: #191919;
+    font-size: 50px;
+}
+
+.contact .mail {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.contact .mail .fa, .contact .mail a {
+    color: #191919;
+}
+
+.contact .mail .fa {
+    font-size: 40px;
+    float: left;
+    margin-right: 30px;
+}
+
+.contact .mail a {
+    font-size: 30px;
+}
+
+.contact .partners {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
 }
