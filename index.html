@@ -20,6 +20,12 @@
             <li><a href="#contact">CONTACT</a></li>
         </ul>
         </div>
+
+        <div class="toggle-menu">
+            <div class="hamburger">
+                
+            </div>
+        </div>
     </div>
     
     <!-- JUMBOTRON -->
@@ -48,7 +54,8 @@ We don't use real leather, furs and animal glue.</p>
     <!-- SHOP -->
     <div class="shop">
        <h2>OUR PRODUCTS</h2>
-    <div class="cards-section">
+    <div class="cards-section row">
+        <div class="col-xl-3 col-lg-3 col-md-6">
         <div class="card">
           <img class="card-img-top" src="img/5754622.jpg" alt="Pocket Black">
   <div class="card-body">
@@ -57,6 +64,8 @@ We don't use real leather, furs and animal glue.</p>
     <a href="https://www.decobazaar.com/produkt-torba-pocket-black-de-lux-100-vege-5754622.html" target="_blank" class="btn btn-dark">Buy!</a>
   </div>
 </div>
+</div>
+<div class="col-xl-3 col-lg-3 col-md-6">
      <div class="card">
           <img class="card-img-top" src="img/5773178.jpg" alt="Nerka">
   <div class="card-body">
@@ -65,6 +74,8 @@ We don't use real leather, furs and animal glue.</p>
     <a href="https://www.decobazaar.com/produkt-nerka-black-100vege-5773178.html" target="_blank" class="btn btn-dark">Buy!</a>
   </div>
 </div>
+</div>
+<div class="col-xl-3 col-lg-3 col-md-6">
    <div class="card">
           <img class="card-img-top" src="img/5773179.jpg" alt="Nerka Double Stripe">
   <div class="card-body">
@@ -73,6 +84,8 @@ We don't use real leather, furs and animal glue.</p>
     <a href="https://www.decobazaar.com/produkt-nerka-black-double-stripe-100vege-5773179.html" target="_blank" class="btn btn-dark">Buy!</a>
   </div>
 </div>
+</div>
+<div class="col-xl-3 col-lg-3 col-md-6">
    <div class="card">
           <img class="card-img-top" src="img/3_zoom.jpg" alt="Plecak double black">
   <div class="card-body">
@@ -80,6 +93,7 @@ We don't use real leather, furs and animal glue.</p>
     <p class="card-text">Backpack made of durable, matt material. Model can be worn as a bag or backpack. Waterproof, adjustable strap.</p>
     <a href="https://www.decobazaar.com/produkt-torbo-plecak-double-black-100-vege-5773174.html" target="_blank" class="btn btn-dark">Buy!</a>
   </div>
+</div>
 </div>
         </div>
     </div>
@@ -130,5 +144,11 @@ We don't use real leather, furs and animal glue.</p>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<script>
+    $('.toggle-menu').click(function() {
+        $('.menu-section ul').toggleClass('menu-active');
+    })
+</script>
 </body>
 </html>
