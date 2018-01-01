@@ -109,7 +109,7 @@
 }
 
 .shop .card {
-    width: 23%;
+    width: 100%;
     float: left;
 }
 
@@ -242,4 +242,28 @@ footer > p,a {
 footer >a:hover {
     color: #f0edee;
     text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 991px) {
+    .menu-section ul > li {
+        padding-left: 30px;
+    }
+    
+    .about-section h2 {
+        font-size: 35px;
+        margin-top: 40px;
+    }
+
+    .about-section p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+    .about-section img {
+        height: 436px;
+        width: 436px;
+        object-fit: contain;
+    }
 }
