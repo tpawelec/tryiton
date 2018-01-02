@@ -327,9 +327,10 @@ footer >a:hover {
         
      }
     .about-section [class*='col-']:first-child {
+        padding: 0;
         border-right: 40px solid #f0edee;
         border-left: 40px solid #f0edee;
-        background-image: linear-gradient(rgba(240,237,238,0.5), rgba(240,237,238,0.5)), url('img/about.jpg');
+        background-image: linear-gradient(rgba(240,237,238,0.6), rgba(240,237,238,0.6)), url('img/about.jpg');
     }
     .about-section h2 {
         font-size: 30px;
@@ -337,8 +338,10 @@ footer >a:hover {
     }
 
     .about-section p {
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 17px;
+        line-height: 21px;
+        padding-left: 0;
+        padding-right: 0;
         padding-bottom: 35px;
     }
     .about-section img {
