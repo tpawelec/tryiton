@@ -263,8 +263,8 @@ footer > p,a {
     text-transform: uppercase;
 }
 
-footer >a:hover {
-    color: #f0edee;
+footer a:hover {
+    color: #f0edee!important;
     text-decoration: none;
 }
 
